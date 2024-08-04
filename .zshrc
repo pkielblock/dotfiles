@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls="exa --icons=auto"
 alias cat="bat --style=default"
+alias apcerror="sudo chown -R $(whoami) /opt/visual-studio-code; echo 'VSCODE PWNED';"
 
 PATH=~/.console-ninja/.bin:$PATH
 
